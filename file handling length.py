@@ -1,0 +1,8 @@
+fo = open("Hello1.txt" , "a+")
+fo.write("hello")
+l = fo.tell()
+print(l)
+fo.seek(20,0)
+a = fo.read()
+print(a)
+fo.close()
